@@ -1,0 +1,7 @@
+applications:
+- name: cfrestwebservice
+  memory: 1gb
+  instances: 1
+  path: target/com.example.cfrestwebservice-0.0.1-SNAPSHOT.jar
+  services: 
+    - mysql
